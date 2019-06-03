@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/BinarySearch.iml" filepath="$PROJECT_DIR$/.idea/BinarySearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Pi_From_Random_Ints/.idea/PiFromRandomInts.iml" filepath="$PROJECT_DIR$/../Pi_From_Random_Ints/.idea/PiFromRandomInts.iml" />
+    </modules>
+  </component>
+</project>
