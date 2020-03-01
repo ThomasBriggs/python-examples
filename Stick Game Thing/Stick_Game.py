@@ -15,7 +15,7 @@ def play(MAX_RUNS, show_games=False):
 
         if show_games:
             print ("\n")
-            print "Game: {}".format(i + 1)
+            print ("Game: {}".format(i + 1))
 
         while sticks >= 0:
 
@@ -26,7 +26,7 @@ def play(MAX_RUNS, show_games=False):
                 player1_move = 1
 
             if show_games:
-                print "Player 1 Available: {}, Took: {}, Left: {}".format(sticks, player1_move, (sticks - player1_move))
+                print ("Player 1 Available: {}, Took: {}, Left: {}".format(sticks, player1_move, (sticks - player1_move)))
                 print("\n")
 
             sticks -= player1_move
@@ -45,7 +45,7 @@ def play(MAX_RUNS, show_games=False):
                 player2_move = sticks % 3
 
             if show_games:
-                print "Player 2 Available: {}, Took: {}, Left: {}".format(sticks, player2_move, (sticks - player2_move))
+                print ("Player 2 Available: {}, Took: {}, Left: {}".format(sticks, player2_move, (sticks - player2_move)))
                 print("\n")
 
             sticks -= player2_move
@@ -64,7 +64,7 @@ def play(MAX_RUNS, show_games=False):
     if show_games:
         print('\n\n')
 
-    print "Player 1 (Random) Won: {}/{} ({}%)".format(player1_wins, MAX_RUNS, (float(player1_wins) / MAX_RUNS * 100))
-    print "Player 2 (Strategy) Won: {}/{} ({}%)".format(player2_wins, MAX_RUNS, (float(player2_wins) / MAX_RUNS * 100))
+    print ("Player 1 (Random) Won: {}/{} ({}%)".format(player1_wins, MAX_RUNS, (float(player1_wins) / MAX_RUNS * 100)))
+    print ("Player 2 (Strategy) Won: {}/{} ({}%)".format(player2_wins, MAX_RUNS, (float(player2_wins) / MAX_RUNS * 100)))
 
-play(1000, True)
+play(1000000)
