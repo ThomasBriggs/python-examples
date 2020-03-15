@@ -5,6 +5,7 @@ def genRandom(x, min=0, max=100):
         a.append(randint(min, max))
     return(a)
 
+
 def bubbleSort(array):
     n = len(array)
     for i in range(n-1):

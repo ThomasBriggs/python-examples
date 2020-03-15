@@ -1,6 +1,5 @@
-from Sort import genRandom, bubbleSort
+import Sort
 
-a = genRandom(100, max=10000)
-bubbleSort(a)
+a = Sort.genRandom(10)
 print(a)
     
